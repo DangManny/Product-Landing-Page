@@ -141,4 +141,9 @@ a{
     background-color: #44D362;
 }
 
+@media (max-width: 500x) {
+    body {
+        flex-wrap: wrap; }
+}
+
 
