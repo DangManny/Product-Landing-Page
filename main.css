@@ -2,10 +2,11 @@
     html {
         overflow-x: hidden;
     }
-    main {
-        padding-left: -20px;
-        padding-right: 10px;
+     header {
+        margin-left: auto;
+        align-items: center;
     }
+}
 }
 
 ul {
