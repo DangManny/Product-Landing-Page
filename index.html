@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="http://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</head>
+<header id="header">
+    <img src="/images/Spotify Logo.png" alt="Spotify Logo" id="header-img">
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="#premium" class="nav-link">Premium</a></li>
+            <li><a href="#download" class="nav-link">Download</a></li>
+            <li><a href="#video" class="nav-link">About</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container-email">
+        <h2>Join Spotify for free!</h2>
+        <form action="https://www.freecodecamp.com/email-submit)" id="form">
+            <input type="email" id="email" placeholder="Enter Email Here" required>
+            <input type="submit" id="submit" value="Join">
+        </form>
+    </div>
+
+    <section id="premium">
+        <h2 id="premium-text">Get Premium free for 1 month</h2>
+        <p id="premium-subtext">Only $9.99/month after. Cancel anytime.</p>
+        <br>
+        <br>
+        <h3>Why go premium?</h3>
+
+        <div class="features-box">
+            <h4>Download music.</h4>
+            <p>Listen anywhere.</p>
+        </div>
+
+        <div class="features-box">
+            <h4>Ad-free music listening.</h4>
+            <p>enjoy nonstop music.</p>
+        </div>
+
+        <div class="features-box">
+            <h4>Play any song.</h4>
+            <p>Even on mobile.</p>
+        </div>
+
+        <div class="features-box">
+            <h4>Unlimited skips.</h4>
+            <p>just hit next.</p>
+        </div>
+
+    </section>
+
+    <section id="download">
+        <h2>Download Spotify</h2>
+        <p>Play millions of songs and podcasts from any device</p>
+        <button class="button button4">Download</button>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <div>
+        <iframe src="https://www.youtube.com/embed/j8L5ySUufdE" width="426" height="250" id="video"></iframe>
+        </div>
+    </section>
+
+</body>
+</html>
